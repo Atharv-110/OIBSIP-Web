@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white: #E6E8E6;
+    --black: #131213;
+}
+
+body{
+    height: 100%;
+    font-size: 1.5em;
+    font-family: monospace;
+    line-height: 1.5;
+    color: var(--black) ;
+}
+
+html{
+    font-size: 12px;
+}
+
+.bg-img{
+    background-image: url(/elonmusk2.png);
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--black);
+}
+
+#first-div{
+    display: flex;
+    /* padding-left: px; */
+    align-items: center;
+}
+
+.fir-text{
+    display: inline-block;
+    font-size: 5rem;
+    padding: 8px 8px;
+    border-radius: 10px;
+    opacity: .9;
+    font-weight: 600;
+    margin: auto 12%;
+    color: var(--white);
+}
+
+#second-div{
+    background-color: var(--white);
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#sec-text{
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 25vh;
+}
+
+#quote{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec-img{
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: center;
+    max-width: 500px;
+    margin-right: 5%;
+}
+
+#sec-img img{
+    width: 620px;
+    height: 620px;
+    box-sizing: border-box;
+    float: right;
+    border-radius: 50%;
+}
+
+#third-div{
+    background: var(--black);
+    min-height: 100vh;
+    color: var(--white);
+}
+
+#third-div-title{
+    font-size: 5rem;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+#third-text{
+    font-size: 1.7rem;
+    margin-top: 10%;
+}
+
+.container{
+    width:50%;
+    text-align: center;
+    margin: 0 auto;
+    padding:5% 10% 5%;
+    color: var(--white);
+    font-size: 1.8rem;
+}
+
+#credits{
+    color: var(--white);
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+a{
+    text-decoration: 2px underline;
+    color: var(--white);
+    transition: 1.5s ease;
+}
+
+a:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
